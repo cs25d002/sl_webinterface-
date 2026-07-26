@@ -1,0 +1,26 @@
+.service-card {
+  padding: 30px;
+  height: 100%;
+}
+
+.service-card__icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(30, 58, 138, 0.14), rgba(59, 130, 246, 0.14));
+  color: var(--color-primary-dark);
+  margin-bottom: 16px;
+}
+
+.service-card__title {
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+}
+
+.service-card__description {
+  margin: 0;
+  font-size: 0.92rem;
+}

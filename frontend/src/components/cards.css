@@ -1,0 +1,39 @@
+.card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.badge--active {
+  background: rgba(59, 130, 246, 0.14);
+  color: var(--color-primary-dark);
+}
+
+.badge--coming-soon {
+  background: rgba(37, 99, 235, 0.12);
+  color: var(--color-secondary);
+}
+
+.badge--status {
+  background: rgba(23, 35, 59, 0.06);
+  color: var(--color-text-muted);
+}

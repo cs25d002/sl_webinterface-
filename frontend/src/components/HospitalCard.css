@@ -1,0 +1,68 @@
+.hospital-card {
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hospital-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.hospital-card__name {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.hospital-card__short-name {
+  margin: 2px 0 0;
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.hospital-card__city {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  font-size: 0.88rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.hospital-card__description {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.hospital-card__service-count {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.hospital-card__website-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  width: fit-content;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.hospital-card__website-link:hover {
+  text-decoration: underline;
+}
+
+.hospital-card__action {
+  margin-top: auto;
+  width: 100%;
+}

@@ -1,0 +1,23 @@
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.values-grid__item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 24px;
+}
+
+.values-grid__item h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: var(--color-primary-dark);
+}
+
+.values-grid__item p {
+  margin: 0;
+  font-size: 0.9rem;
+}

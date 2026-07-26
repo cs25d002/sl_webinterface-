@@ -1,0 +1,11 @@
+.services-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.services-preview-cta {
+  display: flex;
+  justify-content: center;
+}

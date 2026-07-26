@@ -1,0 +1,11 @@
+.about-section__paragraphs {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  max-width: 760px;
+}
+
+.about-section__paragraphs p {
+  font-size: 1.02rem;
+  margin: 0;
+}

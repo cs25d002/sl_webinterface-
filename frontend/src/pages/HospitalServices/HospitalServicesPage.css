@@ -1,0 +1,87 @@
+.hospital-services-page {
+  min-height: 60vh;
+}
+
+.hospital-services-page__breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}
+
+.hospital-services-page__breadcrumb a {
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.hospital-services-page__breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.hospital-services-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-bottom: 28px;
+}
+
+.hospital-services-page__back:hover {
+  color: var(--color-primary-dark);
+}
+
+.hospital-services-page__header {
+  margin-bottom: 40px;
+  max-width: 720px;
+}
+
+.hospital-services-page__name {
+  margin: 0 0 4px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+.hospital-services-page__short-name {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-muted);
+}
+
+.hospital-services-page__location {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 0 14px;
+  font-size: 0.9rem;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+}
+
+.hospital-services-page__description {
+  margin: 0 0 14px;
+}
+
+.hospital-services-page__website-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.hospital-services-page__website-link:hover {
+  text-decoration: underline;
+}
+
+.hospital-services-page__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}

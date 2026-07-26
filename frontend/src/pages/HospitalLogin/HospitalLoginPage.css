@@ -1,0 +1,67 @@
+.hospital-login-page {
+  min-height: 70vh;
+}
+
+.hospital-login-page__container {
+  max-width: 520px;
+}
+
+.hospital-login-page__back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  margin-bottom: 28px;
+  padding: 0;
+}
+
+.hospital-login-page__back:hover {
+  color: var(--color-primary-dark);
+}
+
+.hospital-login-page__link {
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+.hospital-login-page__card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 40px;
+}
+
+.hospital-login-page__hospital-label {
+  margin: 0 0 4px;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-weight: 700;
+}
+
+.hospital-login-page__hospital-name {
+  margin: 0 0 4px;
+  font-size: 1.5rem;
+}
+
+.hospital-login-page__hospital-city {
+  margin: 0 0 28px;
+  color: var(--color-primary-dark);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 560px) {
+  .hospital-login-page__card {
+    padding: 28px;
+  }
+}
